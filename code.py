@@ -10,4 +10,4 @@ def find_cube_pairs(targ): #Added colon, change target to targ
 pairs = find_cube_pairs(1729) #remove comma at end
 print("Valid cube pairs for 1729:") # changed printf to print and remove comma, changed 1728 to 1729
 for (a, b) in pairs: #change pair to pairs, add colon and brackets
-    print(f" → {a}³ + {b}³ = {a**2} + {b**2} = 1728") #change printf to print
+    print(f" → {a}³ + {b}³ = {a**3} + {b**3} = 1729") #change printf to print, 2 to 3 and 1728 to 1729
